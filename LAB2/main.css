@@ -21,3 +21,16 @@ body{
     border: 3px solid palevioletred;
     width: 200px; 
 }
+
+#movingTitle{
+    position: relative;
+    animation-name: movingHeader;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+@keyframes movingHeader {
+    from {top: 0px; left: 0px;}
+    to {top: 0px; left:900px;}
+}
